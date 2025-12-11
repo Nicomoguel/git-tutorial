@@ -14,11 +14,13 @@ int main() {
     double resta = a - b;
     double mult = a * b;
     double div = a / b;
+    double sqr1 = a * a;
 
     cout << "Resultado de la suma: " << suma << endl;
     cout << "Resultado de la resta: " << resta << endl;
     cout << "Resultado de la multiplicacion: " << mult << endl;
     cout << "Resultado de la division: " << div << endl;
+    cout << "El cuadrado del primer numero es: " << sqr1 << endl;
 
     return 0;
 }
