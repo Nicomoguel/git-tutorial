@@ -11,8 +11,10 @@ int main() {
     cin >> b;
 
     double suma = a + b;
+    double resta = a - b;
 
     cout << "Resultado de la suma: " << suma << endl;
+    cout << "Resultado de la resta: " << resta << endl;
 
     return 0;
 }
